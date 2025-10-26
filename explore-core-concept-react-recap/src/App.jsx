@@ -2,6 +2,8 @@ import { useState } from 'react'
 
 import './App.css'
 import Post from './Post'
+import Blogs from './Blogs'
+import Datas from './Datas'
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <li>Load Data</li>
       </ol>
       <hr />
-      <Post></Post>
+      {/* <Post></Post> */}
+      {/* <Blogs></Blogs> */}
+      <Datas></Datas>
     </>
   )
 }

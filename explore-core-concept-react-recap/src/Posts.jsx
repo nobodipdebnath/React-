@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Post.css'
 
 function Posts({post}) {
