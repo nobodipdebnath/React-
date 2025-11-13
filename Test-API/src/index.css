@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.common-button{
+    @apply px-10 py-3 bg-primary text-white font-semibold cursor-pointer rounded-sm mt-10 hover:-translate-y-1 duration-500
+}
+
+@theme{
+
+    --color-primary: #737373;
+    --color-secondary: #341F34
+}

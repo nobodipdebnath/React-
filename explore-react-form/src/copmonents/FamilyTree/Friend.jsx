@@ -1,0 +1,12 @@
+import React, { useContext } from 'react'
+import { MoneyContext } from './FamilyTree'
+
+export const Friend = () => {
+    const [money, setMoney] = useContext(MoneyContext);
+  return (
+    <div>
+        <h3>Friend</h3>
+        <p>Family Got : {money}</p>
+    </div>
+  )
+}
